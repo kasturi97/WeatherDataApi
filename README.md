@@ -4,7 +4,7 @@ A Python project to fetch and save weather data.
 This Python project fetches weather data for specified locations and saves it in JSON and CSV formats.
 
 - Fetches weather data from OpenWeatherMap API.
-- Saves data in both JSON and CSV formats in output folder
+- Saves data in both JSON and CSV formats in output folder(master branch)
 
 Setup Instructions
 
