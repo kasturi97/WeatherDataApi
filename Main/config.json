@@ -1,0 +1,7 @@
+{
+    "locations": ["Hyderabad", "New Delhi", "Chennai", "Bangalore", "Mumbai"],
+    "units": "metric",             
+    "output_file": "../output/weather_data.json",
+    "csv_file": "../output/weather_data.csv",
+    "api_key": "da5fe7df197a4088517174b873db0a39"
+}
