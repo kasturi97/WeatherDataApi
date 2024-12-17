@@ -10,7 +10,7 @@ Setup Instructions
 
 1. Clone the repository:
 
-   git clone https://github.com/kasturi97/weatherData.git
+   git clone https://github.com/kasturi97/WeatherDataApi.git
 
 2. Install required packages:
  
