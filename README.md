@@ -12,11 +12,26 @@ Setup Instructions
 
    git clone https://github.com/kasturi97/WeatherDataApi.git
 
-2. Install required packages:
+   Two folders in Master branch:  main, output
+ 
+  ├── main                       # Main project folder
+  │   ├── weatherData.py         # Your main weather data processing script
+  │   ├── parseJsonToCsv.py      # Script for parsing JSON to CSV
+  │   ├── config.py              # Configuration file
+  │   └── runalll.py             # Script for running the application
+  │
+  └── output                     # Output folder for results
+      ├── weatherdata.csv        # output file (CSV format)
+      └── weatherdata.json       # output file (json format)
+
+
+                                  
+
+3. Install required packages:
  
    pip install requests pandas
  
-3. Update `config.json` with your OpenWeatherMap API key
+4. Update `config.json` with your OpenWeatherMap API key
 
-4. Run the main script:
+5. Run the main script:
    python3 runAll.py
