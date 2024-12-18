@@ -14,14 +14,22 @@ Setup Instructions
 
    Two folders in Master branch:  main, output
  
-main                     # Main project folder
+main 
+
+# Main project folder
+
 ─ weatherData.py         # Your main weather data processing script
+
 ─ parseJsonToCsv.py      # Script for parsing JSON to CSV
+
 ─ config.py              # Configuration file
+
 ─ runalll.py             # Script for running the application
 
 output                   # Output folder for results
+
 ─ weatherdata.csv        # output file (CSV format)
+
 ─ weatherdata.json       # output file (json format)
 
 
