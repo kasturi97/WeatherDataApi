@@ -15,7 +15,7 @@ This Python project fetches weather data for specified locations and saves it in
    Two folders in Master branch:  main, output
  
 
- main 
+ main                        #                         Main folder all files exist
 
     ─ weatherData.py         # Your main weather data processing script
 
@@ -25,7 +25,7 @@ This Python project fetches weather data for specified locations and saves it in
 
     ─ runalll.py             # Script for running the application
 
-output                   # Output folder for results
+output                       #                         Output folder for results
 
     ─ weatherdata.csv        # output file (CSV format)
 
