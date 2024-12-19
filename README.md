@@ -6,7 +6,7 @@ This Python project fetches weather data for specified locations and saves it in
 - Fetches weather data from OpenWeatherMap API.
 - Saves data in both JSON and CSV formats in output folder(master branch)
 
-Setup Instructions
+# Setup Instructions
 
 1. Clone the repository:
 
@@ -14,23 +14,22 @@ Setup Instructions
 
    Two folders in Master branch:  main, output
  
+
 main 
 
-# Main project folder
+ ─ weatherData.py         # Your main weather data processing script
 
-─ weatherData.py         # Your main weather data processing script
+ ─ parseJsonToCsv.py      # Script for parsing JSON to CSV
 
-─ parseJsonToCsv.py      # Script for parsing JSON to CSV
+ ─ config.py              # Configuration file
 
-─ config.py              # Configuration file
-
-─ runalll.py             # Script for running the application
+ ─ runalll.py             # Script for running the application
 
 output                   # Output folder for results
 
-─ weatherdata.csv        # output file (CSV format)
+ ─ weatherdata.csv        # output file (CSV format)
 
-─ weatherdata.json       # output file (json format)
+ ─ weatherdata.json       # output file (json format)
 
 
                                   
