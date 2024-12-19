@@ -15,30 +15,29 @@ This Python project fetches weather data for specified locations and saves it in
    Two folders in Master branch:  main, output
  
 
-main 
+   main 
 
- ─ weatherData.py         # Your main weather data processing script
+    ─ weatherData.py         # Your main weather data processing script
 
- ─ parseJsonToCsv.py      # Script for parsing JSON to CSV
+    ─ parseJsonToCsv.py      # Script for parsing JSON to CSV
 
- ─ config.py              # Configuration file
+    ─ config.py              # Configuration file
 
- ─ runalll.py             # Script for running the application
+    ─ runalll.py             # Script for running the application
 
-output                   # Output folder for results
+   output                   # Output folder for results
 
- ─ weatherdata.csv        # output file (CSV format)
+    ─ weatherdata.csv        # output file (CSV format)
 
- ─ weatherdata.json       # output file (json format)
+    ─ weatherdata.json       # output file (json format)
 
 
                                   
-
-3. Install required packages:
+2. Install required packages:
  
    pip install requests pandas
  
-4. Update `config.json` with your OpenWeatherMap API key
+3. Update `config.json` with your OpenWeatherMap API key
 
-5. Run the main script:
+4. Run the main script:
    python3 runAll.py
